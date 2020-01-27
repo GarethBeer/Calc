@@ -1,0 +1,15 @@
+@import "./_keypad.scss";
+@import "./display.scss";
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 200px auto;
+	width: 400px;
+	height: 500px;
+	background-color: rgb(70, 67, 67);
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+}
